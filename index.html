@@ -3,259 +3,1336 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Engineer. Mohamed Alkillany</title>
+  <title>Eng. Mohamed Alkillany | Senior Web Developer</title>
+  
+  <!-- External Resources -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
   <link rel="stylesheet" href="Protofolio.css">
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
+
 <body>
-  <!-- Navbar -->
-  <nav>
-    <div class="logo">Engineer. Mohamed Alkillany</div>
-    <ul class="navbar">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo" data-aos="fade-right">
+        <span class="logo-icon"><i class="fas fa-code"></i></span>
+        <span class="logo-text">Eng. Mohamed Alkillany</span>
+      </div>
+      
+      <ul class="nav-links" data-aos="fade-left">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      
+      <div class="hamburger" data-aos="fade-left">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
   </nav>
 
-  <!-- Home Section -->
-  <section id="home">
-    <div class="container">
-      <div class="intro">
-        <h1 class="title">Welcome to My Portfolio</h1>
-        <p class="subtitle">Web Developer Full Stuck | Powerpoint Precentation Creator | Technology Expert</p>
-<!-- زر "Explore More" -->
-<button id="exploreMoreBtn" class="explore-btn">Explore More</button>
-      </div>
-    </div>
-    <!-- Particles Background -->
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
     <div id="particles-js"></div>
-  </section>
-
-  <!-- About Me Section -->
-  <section id="about">
     <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="content">
-        <div class="text-content">
-          <p class="about-text">
-            I am Engineer Mohamed Alkillany.<br><br>
-            As a seasoned senior web developer, I've honed my skills in crafting immersive online experiences. 
-            My expertise extends from the foundational principles of programming to advanced techniques, enabling me to build 
-            dynamic, user-friendly websites that captivate audiences and drive results.<br><br>
-
-            Beyond my technical prowess, I'm a skilled PowerPoint presentation creator, transforming complex ideas into visually 
-            compelling narratives that inspire and inform. My passion for digital marketing allows me to effectively leverage online 
-            channels to reach target audiences and achieve business objectives.<br><br>
-
-            I've had the privilege of sharing my knowledge as an instructor at Microsoft and as part of the Digital Empowerment 
-            Project with the Egypt Future Association and Cairo University Computers and Information. My goal is to empower 
-            individuals and organizations to harness the full potential of digital technology.<br><br>
-
-            Beyond my professional roles, I'm the founder and manager of S.T.A.N.D Academy, a dedicated institution focused on 
-            nurturing the next generation of tech talent. Our academy specializes in Social Technology, Artificial Intelligence, 
-            Networking, and Digital Marketing, providing comprehensive training programs to equip learners with the skills needed 
-            to thrive in the digital age.<br><br>
-
-            From coding clean, efficient code to designing engaging presentations and implementing effective digital marketing 
-            strategies, I'm committed to delivering exceptional results. Let's collaborate to bring your vision to life!
-        </p>        
+      <div class="hero-content">
+        <div class="hero-text" data-aos="fade-up" data-aos-delay="300">
+          <h4 class="greeting">Hello, I'm</h4>
+          <h1 class="hero-title">Mohamed Alkillany</h1>
+          <h2 class="hero-subtitle">Senior Full Stack Developer</h2>
+          <p class="hero-description">
+            Creating innovative digital solutions with cutting-edge technologies and delivering exceptional user experiences.
+          </p>
+          
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+        
+        <div class="hero-image" data-aos="fade-left" data-aos-delay="500">
+          <div class="profile-image-container">
+            <img src="gg.jpg" alt="Mohamed Alkillany" class="profile-image">
+            <div class="image-border-animation"></div>
+            <div class="tech-icons">
+              <i class="fab fa-html5" style="color: #e34f26"></i>
+              <i class="fab fa-css3-alt" style="color: #264de4"></i>
+              <i class="fab fa-js" style="color: #f7df1e"></i>
+              <i class="fab fa-react" style="color: #61dafb"></i>
+              <i class="fab fa-node-js" style="color: #68a063"></i>
+            </div>
+          </div>
+        </div>
       </div>
-        <div class="floating-circles"></div>
+    </div>
+    
+    <a href="#about" class="scroll-down" data-aos="fade-up" data-aos-delay="800">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Get to know me better</p>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-image" data-aos="fade-right">
+          <div class="image-wrapper">
+            <img src="images/profile.jpg" alt="Mohamed Alkillany">
+            <div class="experience-badge">
+              <span class="years">10+</span>
+              <span class="text">Years Experience</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-text" data-aos="fade-left">
+          <h3 class="about-title">Senior Full Stack Developer & Instructor</h3>
+          <p class="about-description">
+            I'm Mohamed Alkillany, a passionate technology expert with extensive experience in web development, 
+            training, and digital solutions. Founder and manager of STAND Academy specializing in tech education.
+          </p>
+          
+          <div class="about-details">
+            <div class="detail-item">
+              <span class="detail-label">Name:</span>
+              <span class="detail-value">Mohamed Alkillany</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Email:</span>
+              <span class="detail-value">mohamedayman0000@outlook.com</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">From:</span>
+              <span class="detail-value">Cairo, Egypt</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Role:</span>
+              <span class="detail-value">Full Stack Developer</span>
+            </div>
+          </div>
+          
+          <!-- Tabs Navigation -->
+          <div class="about-tabs">
+            <button class="tab-btn active" data-tab="education">
+              <i class="fas fa-graduation-cap"></i> Education
+            </button>
+            <button class="tab-btn" data-tab="experience">
+              <i class="fas fa-briefcase"></i> Experience
+            </button>
+            <button class="tab-btn" data-tab="certificates">
+              <i class="fas fa-certificate"></i> Certificates
+            </button>
+          </div>
+          
+          <!-- Tabs Content -->
+          <div class="tab-content active" data-tab="education">
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-date"><!-- هتكتب التواريخ هنا --></div>
+                <div class="timeline-content">
+                  <h4>High School Diploma</h4>
+                  <p>Najib Mahfouz Experimental Language School</p>
+                </div>
+              </div>
+              
+              <div class="timeline-item">
+                <div class="timeline-date"><!-- هتكتب التواريخ هنا --></div>
+                <div class="timeline-content">
+                  <h4>Bachelor's in Computer Science</h4>
+                  <p>Cairo University, Faculty of Computers and Information</p>
+                </div>
+              </div>
+              
+              <div class="timeline-item">
+                <div class="timeline-date"> <!-- هتكتب التواريخ هنا --> </div>
+                <div class="timeline-content">
+                  <h4>Master's in Web Technologies</h4>
+                  <p>American University in Cairo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tab-content" data-tab="experience">
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-date">2020 - Present</div>
+                <div class="timeline-content">
+                  <h4>Instructor & Web Developer</h4>
+                  <p>Cairo University, Faculty of Computers and Information</p>
+                  <p class="timeline-description">Taught web development courses and supervised student projects</p>
+                </div>
+              </div>
+              
+              <div class="timeline-item">
+                <div class="timeline-date">2020 - Present</div>
+                <div class="timeline-content">
+                  <h4>Senior Web Developer & Trainer</h4>
+                  <p>Egypt Future Association</p>
+                  <p class="timeline-description">Developed digital solutions and trained staff on modern technologies</p>
+                </div>
+              </div>
+              
+              <div class="timeline-item">
+                <div class="timeline-date">2022 - Present</div>
+                <div class="timeline-content">
+                  <h4>Founder & Manager</h4>
+                  <p>STAND Academy</p>
+                  <p class="timeline-description">Established and manage a technology academy specializing in web development, AI, and digital marketing</p>
+                </div>
+              </div>
+              
+              <div class="timeline-item">
+                <div class="timeline-date">2020 - Present</div>
+                <div class="timeline-content">
+                  <h4>Microsoft Certified Trainer</h4>
+                  <p>Microsoft</p>
+                  <p class="timeline-description">Delivered professional training on Microsoft technologies and web development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tab-content" data-tab="certificates">
+            <div class="certificates-grid">
+              <div class="certificate-item">
+                <i class="fas fa-certificate"></i>
+                <h4>Microsoft Certified Solutions Expert</h4>
+              </div>
+              
+              <div class="certificate-item">
+                <i class="fas fa-certificate"></i>
+                <h4>Google Certified Developer</h4>
+              </div>
+              
+              <div class="certificate-item">
+                <i class="fas fa-certificate"></i>
+                <h4>Full Stack Web Developer Nanodegree</h4>
+              </div>
+              
+              <div class="certificate-item">
+                <i class="fas fa-certificate"></i>
+                <h4>Advanced PowerPoint Design</h4>
+              </div>
+              
+              <div class="certificate-item">
+                <i class="fas fa-certificate"></i>
+                <h4>UI/UX Design Professional</h4>
+              </div>
+              
+              <div class="certificate-item">
+                <i class="fas fa-certificate"></i>
+                <h4>Digital Marketing Specialist</h4>
+              </div>
+            </div>
+          </div>
+          
+          <a href="#" class="btn btn-primary download-cv" download>
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    
-    <!-- Hard Skills Section -->
-    <div class="skills-section">
-        <h3>Hard Skills</h3>
-        <div class="skills-container">
-            <div class="skill-box" id="html">
-                <img src="images/html-logo.png" alt="HTML Logo" class="skill-logo">
-                <p>HTML</p>
-            </div>
-            <div class="skill-box" id="css">
-                <img src="images/css-logo.png" alt="CSS Logo" class="skill-logo">
-                <p>CSS</p>
-            </div>
-            <div class="skill-box" id="javascript">
-                <img src="images/js-logo.png" alt="JavaScript Logo" class="skill-logo">
-                <p>JavaScript</p>
-            </div>
-            <div class="skill-box" id="python">
-              <img src="images/python-logo.png" alt="python Logo" class="skill-logo">
-              <p>Python</p>
-          </div>
-          <div class="skill-box" id="php">
-            <img src="images/php-logo.png" alt="php Logo" class="skill-logo">
-            <p>PHP</p>
-        </div>
-        <div class="skill-box" id="bootstrap">
-          <img src="images/bootstrap-logo.png" alt="bootstrap Logo" class="skill-logo">
-          <p>Bootstrap</p>
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">My Skills</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Technologies I Master</p>
       </div>
-      <div class="skill-box" id="sql">
-        <img src="images/sql-logo.png" alt="sql Logo" class="skill-logo">
-        <p>SQL</p>
-    </div>
-    <div class="skill-box" id="photoshop">
-      <img src="images/photoshop-logo.png" alt="photoshop Logo" class="skill-logo">
-      <p>Photoshop</p>
-  </div>
-  <div class="skill-box" id="illustrator">
-    <img src="images/illustrator-logo.png" alt="illustrator Logo" class="skill-logo">
-    <p>Illustrator</p>
-</div>
-<div class="skill-box" id="indesign">
-  <img src="images/indesign-logo.png" alt="indesign Logo" class="skill-logo">
-  <p>Indesign</p>
-</div>
-<div class="skill-box" id="canva">
-  <img src="images/canva-logo.png" alt="canva Logo" class="skill-logo">
-  <p>Canva</p>
-</div>
-<div class="skill-box" id="figma">
-  <img src="images/figma-logo.png" alt="figma Logo" class="skill-logo">
-  <p>Figma</p>
-</div>
-<div class="skill-box" id="adobe-xd">
-  <img src="images/adobe-xd-logo.png" alt="adobe xd Logo" class="skill-logo">
-  <p>Adobe XD</p>
-</div>
-<div class="skill-box" id="laravel">
-  <img src="images/laravel-logo.png" alt="laravel Logo" class="skill-logo">
-  <p>Laravel</p>
-</div>
-<div class="skill-box" id="linux">
-  <img src="images/linux-logo.png" alt="linux Logo" class="skill-logo">
-  <p>Kali Linux</p>
-</div>
-<div class="skill-box" id="powerpoint">
-  <img src="images/powerpoint-logo.png" alt="powerpoint Logo" class="skill-logo">
-  <p>PowerPoint Precentation</p>
-</div>
-<div class="skill-box" id="excel">
-  <img src="images/excel-logo.png" alt="excel Logo" class="skill-logo">
-  <p>Microsoft Excel</p>
-</div>
-<div class="skill-box" id="word">
-  <img src="images/word-logo.png" alt="word Logo" class="skill-logo">
-  <p>Microsoft Word</p>
-</div>
-<div class="skill-box" id="access">
-  <img src="images/access-logo.png" alt="access Logo" class="skill-logo">
-  <p>Microsoft Access</p>
-</div>
-<div class="skill-box" id="adv">
-  <img src="images/adv-logo.png" alt="adv Logo" class="skill-logo">
-  <p>Advertisement Creation</p>
-</div>
-<div class="skill-box" id="ai">
-  <img src="images/ai-logo.png" alt="ai Logo" class="skill-logo">
-  <p>AI Tools</p>
-</div>
-            <!-- Add more hard skills here -->
+      
+      <!-- Skills Categories Tabs -->
+      <div class="skills-tabs" data-aos="fade-up">
+        <div class="tabs-container">
+          <button class="tab-btn active" data-tab="frontend">
+            <i class="fas fa-laptop-code"></i> Frontend
+          </button>
+          <button class="tab-btn" data-tab="backend">
+            <i class="fas fa-server"></i> Backend
+          </button>
+          <button class="tab-btn" data-tab="office">
+            <i class="fas fa-file-alt"></i> Office
+          </button>
+          <button class="tab-btn" data-tab="cyber">
+            <i class="fas fa-shield-alt"></i> Security
+          </button>
+          <button class="tab-btn" data-tab="design">
+            <i class="fas fa-paint-brush"></i> Design
+          </button>
+          <button class="tab-btn" data-tab="languages">
+            <i class="fas fa-code"></i> Programming
+          </button>
+          <button class="tab-btn" data-tab="soft">
+            <i class="fas fa-brain"></i> Soft Skills
+          </button>
         </div>
-    </div>
-    
-    <!-- Soft Skills Section -->
-    <div class="skills-section">
-        <h3>Soft Skills</h3>
-        <div class="skills-container">
-            <div class="skill-box" id="communication">
-                <img src="images/communication_logo.png" alt="Communication" class="skill-logo">
-                <p>Communication</p>
-            </div>
-            <div class="skill-box" id="teamwork">
-                <img src="images/teamwork_logo.png" alt="Teamwork" class="skill-logo">
-                <p>Teamwork</p>
-            </div>
-            <div class="skill-box" id="problem-solving">
-                <img src="images/problem_solving_logo.png" alt="Problem Solving" class="skill-logo">
-                <p>Problem Solving</p>
-            </div>
-            <div class="skill-box" id="problem-solving">
-              <img src="images/emotional_intelligence_logo.png" alt="Emotional Intelligence" class="skill-logo">
-              <p>Emotional Intelligence</p>
-          </div>
-          <div class="skill-box" id="problem-solving">
-            <img src="images/adaptability_logo.png" alt="Adaptability" class="skill-logo">
-            <p>Adaptability</p>
-        </div>
-        <div class="skill-box" id="problem-solving">
-          <img src="images/leadership_logo.png" alt="Leadership" class="skill-logo">
-          <p>Leadership</p>
       </div>
-            <!-- Add more soft skills here -->
+      
+      <!-- Skills Content -->
+      <div class="skills-content">
+        <!-- Frontend Skills -->
+        <div class="tab-content active" data-tab="frontend">
+          <div class="skills-grid">
+            <!-- HTML5 -->
+            <div class="skill-card" data-aos="flip-left">
+              <div class="skill-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+              <h3>HTML5</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="98">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">98%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- CSS3 -->
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+              <div class="skill-icon">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <h3>CSS3</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="95">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- JavaScript -->
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="200">
+              <div class="skill-icon">
+                <i class="fab fa-js"></i>
+              </div>
+              <h3>JavaScript</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="90">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Bootstrap -->
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="300">
+              <div class="skill-icon">
+                <i class="fab fa-bootstrap"></i>
+              </div>
+              <h3>Bootstrap</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="92">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">92%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- jQuery -->
+            <div class="skill-card" data-aos="flip-left" data-aos-delay="400">
+              <div class="skill-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>jQuery</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="88">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">88%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+          </div>
         </div>
+        
+        <!-- Backend Skills -->
+        <div class="tab-content" data-tab="backend">
+          <div class="skills-grid">
+            <!-- Python -->
+            <div class="skill-card" data-aos="flip-right">
+              <div class="skill-icon">
+                <i class="fab fa-python"></i>
+              </div>
+              <h3>Python</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="90">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- PHP -->
+            <div class="skill-card" data-aos="flip-right" data-aos-delay="100">
+              <div class="skill-icon">
+                <i class="fab fa-php"></i>
+              </div>
+              <h3>PHP</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="85">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Laravel -->
+            <div class="skill-card" data-aos="flip-right" data-aos-delay="200">
+              <div class="skill-icon">
+                <i class="fab fa-laravel"></i>
+              </div>
+              <h3>Laravel</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="87">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">87%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- SQL -->
+            <div class="skill-card" data-aos="flip-right" data-aos-delay="300">
+              <div class="skill-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <h3>SQL</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="92">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">92%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Office Skills -->
+        <div class="tab-content" data-tab="office">
+          <div class="skills-grid">
+            <!-- PowerPoint -->
+            <div class="skill-card" data-aos="zoom-in">
+              <div class="skill-icon">
+                <i class="fas fa-file-powerpoint"></i>
+              </div>
+              <h3>PowerPoint</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="98">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">98%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Word -->
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="skill-icon">
+                <i class="fas fa-file-word"></i>
+              </div>
+              <h3>Word</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="95">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Excel -->
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+              <div class="skill-icon">
+                <i class="fas fa-file-excel"></i>
+              </div>
+              <h3>Excel</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="90">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Access -->
+            <div class="skill-card" data-aos="zoom-in" data-aos-delay="300">
+              <div class="skill-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <h3>Access</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="88">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">88%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Cybersecurity Skills -->
+        <div class="tab-content" data-tab="cyber">
+          <div class="skills-grid">
+            <!-- Linux -->
+            <div class="skill-card" data-aos="fade-up">
+              <div class="skill-icon">
+                <i class="fab fa-linux"></i>
+              </div>
+              <h3>Linux</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="92">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">92%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Design Skills -->
+        <div class="tab-content" data-tab="design">
+          <div class="skills-grid">
+            <!-- Illustrator -->
+            <div class="skill-card" data-aos="fade-down">
+              <div class="skill-icon">
+                <i class="fas fa-paint-brush"></i>
+              </div>
+              <h3>Illustrator</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="90">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Photoshop -->
+            <div class="skill-card" data-aos="fade-down" data-aos-delay="100">
+              <div class="skill-icon">
+                <i class="fas fa-image"></i>
+              </div>
+              <h3>Photoshop</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="92">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">92%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- InDesign -->
+            <div class="skill-card" data-aos="fade-down" data-aos-delay="200">
+              <div class="skill-icon">
+                <i class="fas fa-book"></i>
+              </div>
+              <h3>InDesign</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="85">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Canva -->
+            <div class="skill-card" data-aos="fade-down" data-aos-delay="300">
+              <div class="skill-icon">
+                <i class="fas fa-palette"></i>
+              </div>
+              <h3>Canva</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="95">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- AI Tools -->
+            <div class="skill-card" data-aos="fade-down" data-aos-delay="400">
+              <div class="skill-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+              <h3>AI Tools</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="90">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Advertisement -->
+            <div class="skill-card" data-aos="fade-down" data-aos-delay="500">
+              <div class="skill-icon">
+                <i class="fas fa-ad"></i>
+              </div>
+              <h3>Advertisement</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="93">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">93%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- UI/UX Design -->
+            <div class="skill-card" data-aos="fade-down" data-aos-delay="600">
+              <div class="skill-icon">
+                <i class="fas fa-pencil-ruler"></i>
+              </div>
+              <h3>UI/UX Design</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="94">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">94%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Programming Languages -->
+        <div class="tab-content" data-tab="languages">
+          <div class="skills-grid">
+            <!-- C Language -->
+            <div class="skill-card" data-aos="zoom-in-up">
+              <div class="skill-icon">
+                <i class="fas fa-copyright"></i>
+              </div>
+              <h3>C Language</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="90">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- C++ -->
+            <div class="skill-card" data-aos="zoom-in-up" data-aos-delay="100">
+              <div class="skill-icon">
+                <i class="fas fa-plus"></i>
+              </div>
+              <h3>C++</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="92">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">92%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Java -->
+            <div class="skill-card" data-aos="zoom-in-up" data-aos-delay="200">
+              <div class="skill-icon">
+                <i class="fab fa-java"></i>
+              </div>
+              <h3>Java</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="85">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Spoken Languages -->
+            <div class="language-section" data-aos="fade-up">
+              <h3 class="language-title">
+                <i class="fas fa-language"></i> Spoken Languages
+              </h3>
+              <div class="language-grid">
+                <!-- English -->
+                <div class="language-card" data-aos="fade-right">
+                  <div class="language-icon">
+                    <i class="fas fa-language"></i>
+                  </div>
+                  <h4>English</h4>
+                  <div class="skill-progress-container">
+                    <div class="skill-progress-bar" data-percent="90">
+                      <div class="progress-fill" style="width: 0%"></div>
+                      <div class="progress-dots"></div>
+                    </div>
+                    <span class="skill-percent">90%</span>
+                  </div>
+                  <div class="skill-wave"></div>
+                </div>
+                
+                <!-- French -->
+                <div class="language-card" data-aos="fade-right" data-aos-delay="100">
+                  <div class="language-icon">
+                    <i class="fas fa-language"></i>
+                  </div>
+                  <h4>French</h4>
+                  <div class="skill-progress-container">
+                    <div class="skill-progress-bar" data-percent="80">
+                      <div class="progress-fill" style="width: 0%"></div>
+                      <div class="progress-dots"></div>
+                    </div>
+                    <span class="skill-percent">80%</span>
+                  </div>
+                  <div class="skill-wave"></div>
+                </div>
+                
+                <!-- Spanish -->
+                <div class="language-card" data-aos="fade-right" data-aos-delay="200">
+                  <div class="language-icon">
+                    <i class="fas fa-language"></i>
+                  </div>
+                  <h4>Spanish</h4>
+                  <div class="skill-progress-container">
+                    <div class="skill-progress-bar" data-percent="70">
+                      <div class="progress-fill" style="width: 0%"></div>
+                      <div class="progress-dots"></div>
+                    </div>
+                    <span class="skill-percent">70%</span>
+                  </div>
+                  <div class="skill-wave"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Soft Skills -->
+        <div class="tab-content" data-tab="soft">
+          <div class="skills-grid">
+            <!-- Leadership -->
+            <div class="skill-card" data-aos="fade-up-right">
+              <div class="skill-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <h3>Leadership</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="95">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Communication -->
+            <div class="skill-card" data-aos="fade-up-right" data-aos-delay="100">
+              <div class="skill-icon">
+                <i class="fas fa-bullhorn"></i>
+              </div>
+              <h3>Communication</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="96">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">96%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Teamwork -->
+            <div class="skill-card" data-aos="fade-up-right" data-aos-delay="200">
+              <div class="skill-icon">
+                <i class="fas fa-people-arrows"></i>
+              </div>
+              <h3>Teamwork</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="97">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">97%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Problem Solving -->
+            <div class="skill-card" data-aos="fade-up-right" data-aos-delay="300">
+              <div class="skill-icon">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h3>Problem Solving</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="98">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">98%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Emotional Intelligence -->
+            <div class="skill-card" data-aos="fade-up-right" data-aos-delay="400">
+              <div class="skill-icon">
+                <i class="fas fa-brain"></i>
+              </div>
+              <h3>Emotional Intelligence</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="94">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">94%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Adaptability -->
+            <div class="skill-card" data-aos="fade-up-right" data-aos-delay="500">
+              <div class="skill-icon">
+                <i class="fas fa-random"></i>
+              </div>
+              <h3>Adaptability</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="96">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">96%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+            
+            <!-- Management -->
+            <div class="skill-card" data-aos="fade-up-right" data-aos-delay="600">
+              <div class="skill-icon">
+                <i class="fas fa-tasks"></i>
+              </div>
+              <h3>Management</h3>
+              <div class="skill-progress-container">
+                <div class="skill-progress-bar" data-percent="95">
+                  <div class="progress-fill" style="width: 0%"></div>
+                  <div class="progress-dots"></div>
+                </div>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-wave"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
+  </section>
 
   <!-- Projects Section -->
   <section id="projects" class="projects-section">
     <div class="container">
-        <h2 class="section-title">My Projects</h2>
-        <div class="projects-wrapper">
-            <!-- Project 1 -->
-            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="project-content">
-                    <img src="images/project1.png" alt="Project 1" class="project-image">
-                    <div class="project-info">
-                        <h3 class="project-title">Project One</h3>
-                        <p class="project-description">This project showcases my skills in full-stack development, user-friendly interfaces.</p>
-                        <button class="view-details">View Details</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Project 2 -->
-            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
-                <div class="project-content">
-                    <img src="images/project2.png" alt="Project 2" class="project-image">
-                    <div class="project-info">
-                        <h3 class="project-title">Project Two</h3>
-                        <p class="project-description">A web-based project integrating artificial intelligence to improve user experience through intelligent systems.</p>
-                        <button class="view-details">View Details</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Project 3 -->
-            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
-                <div class="project-content">
-                    <img src="images/project3.png" alt="Project 3" class="project-image">
-                    <div class="project-info">
-                        <h3 class="project-title">Project Three</h3>
-                        <p class="project-description">A digital marketing campaign that reached a broad audience, leveraging the power of social media platforms and targeted strategies.</p>
-                        <button class="view-details">View Details</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact">
-    <div class="contact-container">
-      <h2>Contact Me</h2>
-      <div class="contact-icons">
-        <a href="https://wa.me/01000621479" target="_blank" class="contact-icon">
-          <img src="images/whatsapp-logo.png" alt="WhatsApp" />
-        </a>
-        <a href="https://www.facebook.com/profile.php?id=100049554953727&mibextid=ZbWKwL" target="_blank" class="contact-icon">
-          <img src="images/facebook-logo.png" alt="Facebook" />
-        </a>
+      <div class="section-header">
+        <h2 class="section-title">MY <span class="highlight">PROJECTS</span></h2>
+        <p class="section-subtitle">Some of my <span class="highlight">recent work</span></p>
+        <div class="section-divider"></div>
       </div>
-      <form id="contact-form">
-        <textarea id="message" rows="5" placeholder="Enter your message here..."></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+  
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">
+          <span class="filter-icon"><i class="fas fa-th"></i></span>
+          <span class="filter-text">All Projects</span>
+          <span class="filter-counter">2</span>
+        </button>
+        <button class="filter-btn" data-filter="web">
+          <span class="filter-icon"><i class="fas fa-laptop-code"></i></span>
+          <span class="filter-text">Web Apps</span>
+          <span class="filter-counter">1</span>
+        </button>
+        <button class="filter-btn" data-filter="mobile">
+          <span class="filter-icon"><i class="fas fa-mobile-alt"></i></span>
+          <span class="filter-text">Mobile Apps</span>
+          <span class="filter-counter">1</span>
+        </button>
+      </div>
+  
+      <div class="projects-grid">
+        <!-- E-commerce Platform -->
+        <div class="project-card" data-category="web">
+          <div class="project-image-container">
+            <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+                 alt="E-commerce Platform" 
+                 class="project-image">
+            <div class="project-overlay">
+              <div class="project-badge">Web Application</div>
+              <div class="project-content">
+                <h3 class="project-title">E-commerce Platform</h3>
+                <p class="project-description">Complete online shopping solution with payment gateway integration</p>
+                <div class="project-tech">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>MongoDB</span>
+                  <span>Stripe API</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-hover-effect"></div>
+            <div class="project-glare"></div>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link demo-link">
+              <i class="fas fa-play"></i> Live Demo
+            </a>
+            <a href="#" class="project-link code-link">
+              <i class="fab fa-github"></i> Source Code
+            </a>
+          </div>
+        </div>
+  
+        <!-- Fitness Tracker -->
+        <div class="project-card" data-category="mobile">
+          <div class="project-image-container">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+                 alt="Fitness Tracker" 
+                 class="project-image">
+            <div class="project-overlay">
+              <div class="project-badge">Mobile App</div>
+              <div class="project-content">
+                <h3 class="project-title">Fitness Tracker</h3>
+                <p class="project-description">Workout and nutrition tracking application with AI recommendations</p>
+                <div class="project-tech">
+                  <span>React Native</span>
+                  <span>Firebase</span>
+                  <span>AI Integration</span>
+                  <span>HealthKit</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-hover-effect"></div>
+            <div class="project-glare"></div>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link demo-link">
+              <i class="fas fa-play"></i> Live Demo
+            </a>
+            <a href="#" class="project-link code-link">
+              <i class="fab fa-github"></i> Source Code
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Client <span>Testimonials</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">What my clients say about my work</p>
+      </div>
+  
+      <div class="testimonials-container">
+        <!-- Language Filter -->
+        <div class="language-filter">
+          <button class="lang-btn active" data-lang="all">
+            <span class="lang-text">All</span>
+            <span class="lang-underline"></span>
+          </button>
+          <button class="lang-btn" data-lang="ar">
+            <span class="lang-text">العربية</span>
+            <span class="lang-underline"></span>
+          </button>
+          <button class="lang-btn" data-lang="en">
+            <span class="lang-text">English</span>
+            <span class="lang-underline"></span>
+          </button>
+          <button class="lang-btn" data-lang="es">
+            <span class="lang-text">Español</span>
+            <span class="lang-underline"></span>
+          </button>
+        </div>
+  
+        <!-- Testimonials Slider -->
+        <div class="testimonials-slider">
+          <!-- Testimonial 1 (Arabic) -->
+          <div class="testimonial-card active" data-lang="ar">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <div class="testimonial-text-wrapper">
+                <p class="testimonial-text">
+                  "مهندس. محمد من أفضل المطورين اللي اشتغلت معاهم، المشروع كان جاهز قبل الوقت المحدد وبجودة خيالية. الشغل بتاعه منظم ومتقن!"
+                </p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-image">
+                  <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="أحمد محمود">
+                  <div class="image-border-effect"></div>
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">أحمد محمود</h4>
+                  <p class="author-position">مدير شركة تكنو سوليوشنز</p>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-bg-effect"></div>
+          </div>
+  
+          <!-- Testimonial 2 (English) -->
+          <div class="testimonial-card" data-lang="en">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <div class="testimonial-text-wrapper">
+                <p class="testimonial-text">
+                  "Engineer. Mohamed delivered our e-commerce platform 2 weeks ahead of schedule with pixel-perfect quality. His code is clean and well-documented!"
+                </p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-image">
+                  <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson">
+                  <div class="image-border-effect"></div>
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">Sarah Johnson</h4>
+                  <p class="author-position">CEO, TechSolutions Inc.</p>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-bg-effect"></div>
+          </div>
+  
+          <!-- Testimonial 3 (Spanish) -->
+          <div class="testimonial-card" data-lang="es">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <div class="testimonial-text-wrapper">
+                <p class="testimonial-text">
+                  "Trabajar con Mohamed fue una experiencia increíble. Su aplicación móvil superó todas nuestras expectativas y la entrega fue antes de lo previsto."
+                </p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-image">
+                  <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Carlos Rodriguez">
+                  <div class="image-border-effect"></div>
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">Carlos Rodriguez</h4>
+                  <p class="author-position">Director de Marketing Digital</p>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-bg-effect"></div>
+          </div>
+  
+          <!-- Testimonial 4 (Arabic) -->
+          <div class="testimonial-card" data-lang="ar">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <div class="testimonial-text-wrapper">
+                <p class="testimonial-text">
+                  "ما شاء الله، التصميمات اللي قدمها المهندس. محمد كانت فوق الممتاز. التفاصيل الدقيقة والجودة اللي بيقدمها مش بتلاقيها عند أي حد!"
+                </p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-image">
+                  <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="منى علي">
+                  <div class="image-border-effect"></div>
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">منى علي</h4>
+                  <p class="author-position">مديرة تسويق، شركة إعلانات</p>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-bg-effect"></div>
+          </div>
+  
+          <!-- Testimonial 5 (English) -->
+          <div class="testimonial-card" data-lang="en">
+            <div class="testimonial-content">
+              <div class="quote-icon">
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <div class="testimonial-text-wrapper">
+                <p class="testimonial-text">
+                  "As a Microsoft trainer, Engineer. Mohamed has exceptional technical skills and teaching abilities. He made complex concepts easy to understand."
+                </p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-image">
+                  <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="David Wilson">
+                  <div class="image-border-effect"></div>
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">David Wilson</h4>
+                  <p class="author-position">Training Manager, Microsoft</p>
+                  <div class="author-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-bg-effect"></div>
+          </div>
+        </div>
+  
+        <!-- Slider Controls -->
+        <div class="slider-controls">
+          <button class="slider-prev">
+            <i class="fas fa-chevron-left"></i>
+            <span class="hover-circle"></span>
+          </button>
+          <div class="slider-dots"></div>
+          <button class="slider-next">
+            <i class="fas fa-chevron-right"></i>
+            <span class="hover-circle"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Let's work together</p>
+      </div>
+      
+      <div class="contact-content">
+        <div class="contact-info" data-aos="fade-right">
+          <h3 class="contact-title">Contact Information</h3>
+          <p class="contact-description">
+            Feel free to reach out to me for project inquiries, collaborations, or just to say hello!
+          </p>
+          
+          <div class="info-items">
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-text">
+                <h4>Location</h4>
+                <p>Cairo, Egypt</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info-text">
+                <h4>Email</h4>
+                <p>mohamedayman0000@outlook.com</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="info-text">
+                <h4>Phone</h4>
+                <p>+20 100 062 1479</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100049554953727&mibextid=ZbWKwL" class="social-link">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/engineer-mohamed-alkillany-76999b285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/ENGINEERMOHAMEDALKILLANY" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://wa.me/01000621479" class="social-link">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="contact-form" data-aos="fade-left">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary submit-btn">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo" data-aos="fade-up">
+          <span class="logo-icon"><i class="fas fa-code"></i></span>
+          <span class="logo-text">Mohamed Alkillany</span>
+        </div>
+        
+        <div class="footer-links" data-aos="fade-up" data-aos-delay="100">
+          <h4 class="links-title">Quick Links</h4>
+          <ul class="links-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-services" data-aos="fade-up" data-aos-delay="200">
+          <h4 class="services-title">Services</h4>
+          <ul class="services-list">
+            <li>Web Development</li>
+            <li>Mobile App Development</li>
+            <li>UI/UX Design</li>
+            <li>PowerPoint Presentations</li>
+            <li>Digital Marketing</li>
+          </ul>
+        </div>
+        
+        <div class="footer-newsletter" data-aos="fade-up" data-aos-delay="300">
+          <h4 class="newsletter-title">Newsletter</h4>
+          <p class="newsletter-text">
+            Subscribe to my newsletter to receive updates on my latest projects and articles.
+          </p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom" data-aos="fade-up">
+        <div class="copyright">
+          <p>&copy; <span id="year"></span> Mohamed Alkillany. All Rights Reserved.</p>
+        </div>
+        <div class="back-to-top">
+          <a href="#home"><i class="fas fa-arrow-up"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="Protofolio.js"></script>
 </body>
 </html>
